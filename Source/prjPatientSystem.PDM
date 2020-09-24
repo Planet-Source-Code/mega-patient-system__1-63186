@@ -1,0 +1,114 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Ellis\Patient System\Source\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Ellis\Patient System\Source\Active X\Phantom.ocx=
+C:\WINDOWS\system32\MSSTDFMT.DLL=
+C:\Program Files\Exhedra\PSC\ASP_Volume2\MSCOMCTL.OCX=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\WINDOWS\system32\uxtheme.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msdatgrd.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Ellis\Patient System\Source\PatientSys.mdb=
+D:\Ellis\Patient System\Source\Patient System.exe.manifest=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Ellis\Patient System\Source\Patient System.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\uxtheme.dll=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\Program Files\Exhedra\PSC\ASP_Volume2\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+D:\Ellis\Patient System\Source\Active X\Phantom.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Ellis\Patient System\Source\PatientSys.mdb=Yes
+D:\Ellis\Patient System\Source\Patient System.exe.manifest=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Ellis\Patient System\Source\Patient System.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\uxtheme.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files\Exhedra\PSC\ASP_Volume2\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+D:\Ellis\Patient System\Source\Active X\Phantom.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Ellis\Patient System\Source\PatientSys.mdb=$(AppPath)
+D:\Ellis\Patient System\Source\Patient System.exe.manifest=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Ellis\Patient System\Source\Patient System.exe=No
+D:\Ellis\Patient System\Source\PatientSys.mdb=No
+D:\Ellis\Patient System\Source\Patient System.exe.manifest=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Patient System
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Patient System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Patient System]
+Icon1="Patient System.exe"
+Title1=Patient System
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Ellis\Patient System\Source\Package
+ProjectFolder=D:\Ellis\Patient System\Source
+ServerSideCab=
+File1=D:\Ellis\Patient System\Source\Package\setup.exe
+File2=D:\Ellis\Patient System\Source\Package\Setup.Lst
+File3=D:\Ellis\Patient System\Source\Package\Patient System.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

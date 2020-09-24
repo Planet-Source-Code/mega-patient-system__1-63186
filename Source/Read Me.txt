@@ -1,0 +1,13 @@
+Thank you for downloading my submission.
+
+In order to run you need to download and compile the following.
+Phantom Panel http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=61638&lngWId=1
+and XTab Control http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=56462&lngWId=1
+
+Once your done downloading this components you need to register it first
+
+UserID: SNC
+Password: ellis
+
+You are free to use and distribute the code as long as you give credit to were its due.
+
